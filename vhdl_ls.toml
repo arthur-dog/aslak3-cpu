@@ -1,0 +1,13 @@
+# TOML file for rust hdl https://github.com/VHDL-LS/rust_hdl
+# Generated with hdl-toml https://github.com/bjfer/hdl-toml
+
+standard = "2008"
+
+[libraries]
+
+aslak3-cpu.files = [
+# /home/ada/Projects/Curtin/ext/aslak3-cpu/
+'*.vhd',
+'tb/*.vhd',
+]
+
